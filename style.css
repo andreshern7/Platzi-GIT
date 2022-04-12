@@ -1,0 +1,55 @@
+:root{
+    font-size: 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    
+}
+article{
+    height: 380px;
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+}
+
+article h2{
+    font-size: 3rem;
+    margin: 1rem
+
+}
+
+article p{
+    font-size: 1.5rem;
+
+}
+
+article img{
+    max-width: 80%;
+    margin: 1rem;
+    position: relative;
+
+}
+
+
+
+@media screen and (max-width: 420px){
+    .content{
+        grid-template-columns: 250px;
+        justify-content: center;
+    }
+
+    article{
+        width: 200px;
+        
+    }
+}
