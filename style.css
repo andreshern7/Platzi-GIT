@@ -7,37 +7,61 @@
     box-sizing: border-box;
 }
 
+header{
+    text-align: center;
+    border-bottom: 2px solid rgb(0,0,0);
+    padding: 2rem;
+    margin: 0 0 3rem;
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+}
+
+header h1{
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+header h1 span{
+    font-size: 2rem;
+    font-weight: 200;
+    color: rgb(218, 218, 218);
+    margin: auto;
+}
+
+header h1 span:hover{
+    color: rgb(200, 245, 226);
+}
+
 .content{
     display: grid;
     grid-template-columns: repeat(3, 400px);
     gap: 20px;
     justify-items: center;
     align-items: center;
-    
 }
+
 article{
     height: 380px;
     width: 350px;
     margin: 10px;
     text-align: center;
+
 }
+
 
 article h2{
     font-size: 3rem;
     margin: 1rem
-
 }
 
 article p{
     font-size: 1.5rem;
-
 }
 
 article img{
     max-width: 80%;
     margin: 1rem;
     position: relative;
-
 }
 
 
