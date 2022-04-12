@@ -1,7 +1,9 @@
 :root{
     font-size: 10px;
 }
+
 *{
+    font-family: sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -34,17 +36,17 @@ header h1 span:hover{
 
 .content{
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, 32%);
     gap: 20px;
     justify-items: center;
     align-items: center;
 }
 
 article{
-    height: 380px;
-    width: 350px;
-    margin: 10px;
+    height: 400px;
+    width: 400px;
     text-align: center;
+    padding: 1rem;
     border-radius: 1%;
     box-shadow: 10px 10px 23px 7px rgba(0,0,0,0.51);
 }
@@ -64,10 +66,10 @@ article p{
     font-size: 1.5rem;
 }
 
-article img{
-    max-width: 80%;
-    margin: 1rem;
-    position: relative;
+article a img{
+    max-height: 70%;
+    max-width: 90%;
+    margin: 2.2rem 0 0;
 }
 
 
