@@ -18,19 +18,33 @@ header{
     color: rgb(255, 255, 255);
 }
 
+
+header img{
+    width: 50px;
+    position: relative;
+    vertical-align: baseline;
+}
+
+header img:hover{
+    filter: invert(1);
+}
+
 header h1{
+    display: inline-block;
+    margin: 0 10px;
     font-size: 5rem;
     font-weight: 600;
 }
 
-header h1 span{
+header span{
+    display: inline-block;
     font-size: 2rem;
     font-weight: 200;
     color: rgb(218, 218, 218);
     margin: auto;
 }
 
-header h1 span:hover{
+header span:hover{
     color: rgb(200, 245, 226);
 }
 
